@@ -1,0 +1,22 @@
+{
+  "name": "DemoNotification",
+  "type": "object",
+  "properties": {
+    "request_number": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "read": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": [
+    "message"
+  ]
+}

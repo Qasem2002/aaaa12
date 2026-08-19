@@ -1,0 +1,34 @@
+{
+  "name": "VisitorSession",
+  "type": "object",
+  "properties": {
+    "session_id": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "current_page": {
+      "type": "string"
+    },
+    "last_seen": {
+      "type": "string"
+    },
+    "entered_at": {
+      "type": "string"
+    },
+    "is_active": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "session_id"
+  ]
+}

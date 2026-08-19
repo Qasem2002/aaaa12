@@ -1,0 +1,30 @@
+{
+  "name": "DemoUser",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "joined_date": {
+      "type": "string"
+    },
+    "requests_count": {
+      "type": "number",
+      "default": 0
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "name",
+    "username"
+  ]
+}
